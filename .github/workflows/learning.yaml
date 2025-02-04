@@ -10,5 +10,5 @@ jobs:
   first_learning_job:
     runs-on: ubuntu-latest
     steps:        
-      name: First Job
-      run: echo "this is an example"
+     - name: First Job
+     - run: echo "this is an example"
