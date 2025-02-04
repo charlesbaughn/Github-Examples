@@ -14,3 +14,4 @@ jobs:
      - name: First Job
        run:
         echo "this is an example"
+        echo "here's a command"
