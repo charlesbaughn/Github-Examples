@@ -12,6 +12,6 @@ jobs:
     steps:
      - uses: actions/checkout@v2        
      - name: First Job
-     - run: |
+     - run:
         echo "this is an example"
         echo "this is number 2"
