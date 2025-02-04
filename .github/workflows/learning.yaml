@@ -12,5 +12,8 @@ jobs:
     steps:
      - uses: actions/checkout@v2        
      - name: First Job
-       run: echo "this is an example"
-       run: cat /etc/os-release
+       run: |
+       echo "this is an example"
+       cat /etc/os-release
+       echo "who am i"
+       whoami
