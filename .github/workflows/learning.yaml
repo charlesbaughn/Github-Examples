@@ -14,4 +14,3 @@ jobs:
      - name: First Job
      - run:
         echo "this is an example"
-        echo "this is number 2"
