@@ -1,0 +1,13 @@
+name: Learning about actions
+
+on:
+  push:
+    branches:
+      main
+  workflow_dispatch:
+
+jobs:
+  first_learning_job:
+    name: First Job
+    run:
+      echo "this is an example"
