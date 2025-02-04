@@ -8,6 +8,7 @@ on:
 
 jobs:
   first_learning_job:
-    steps:  
+    runs-on: ubuntu-latest
+    steps:        
       name: First Job
       run: echo "this is an example"
